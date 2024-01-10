@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "builtin-baseline": "e85cafa30def190eca0dc1413bf8c04e434af567",
+  "dependencies": [ "my-component" ],
+  "overrides": [
+    {
+      "name": "my-component",
+      "version": "1.0.1"
+    }
+  ],
+  "vcpkg-configuration": {
+    "registries": [
+      {
+        "kind": "git",
+        "baseline": "241c9efc204a35524e2b687c52d75495b8765ed2",
+        "repository": "https://github.com/s-h-r-e-y/my-vcpkg-registry.git",
+        "packages": [ "my-component" ]
+      }
+    ]
+  }
+}
