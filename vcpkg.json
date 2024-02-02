@@ -5,14 +5,14 @@
   "overrides": [
     {
       "name": "my-component",
-      "version": "1.0.1"
+      "version": "1.0.1#6"
     }
   ],
   "vcpkg-configuration": {
     "registries": [
       {
         "kind": "git",
-        "baseline": "241c9efc204a35524e2b687c52d75495b8765ed2",
+        "baseline": "fc4ea8098de2dc63d830c8419552edd2da871c35",
         "repository": "https://github.com/s-h-r-e-y/my-vcpkg-registry.git",
         "packages": [ "my-component" ]
       }
